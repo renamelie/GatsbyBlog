@@ -9,7 +9,7 @@ import { List } from 'antd'
 
 const IndexPage = ({ data }) => (
 	<Layout page="1">
-		<SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+		<SEO title="Home" />
 
 		<List
 			itemLayout="horizontal"
