@@ -20,7 +20,13 @@ const Bio = () => {
 			<Divider orientation="left">Author</Divider>
 			<List.Item>
 				<List.Item.Meta
-					avatar={<Avatar size={64} src={site.siteMetadata.authorImage} />}
+					avatar={
+						<Avatar
+							alt={site.siteMetadata.author}
+							size={64}
+							src={site.siteMetadata.authorImage}
+						/>
+					}
 					title={<Link to="/about">{site.siteMetadata.author}</Link>}
 					description={site.siteMetadata.bio}
 				/>
